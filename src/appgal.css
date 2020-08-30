@@ -1,0 +1,26 @@
+.container {
+  width:100%!important;
+  height:100%;
+    display: grid!important;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 10px;
+    background: rgb(170, 243, 243);
+    padding: 10px;
+  }
+  .container img {
+    width: 100%!important;
+    display: block!important;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    transition: all 100ms ease-out;
+    height:350px;
+  }
+  .container img:hover {
+    transform: scale(1.04);
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+  }
+  
+  
+  
+  

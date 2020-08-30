@@ -1,0 +1,165 @@
+html {
+  height:1000px;;
+}
+
+body {
+  text-align: center;
+  margin: 0px;
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
+
+#app {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Coda Caption', sans-serif;
+}
+
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.header {
+  background-color: rgb(44, 49, 107);
+  margin: 0px;
+}
+
+.header h1{
+  color: rgb(225, 206, 241);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h1, h3 {
+  margin: 0px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main {
+  background-color: #ffffff;
+  height: 100%;
+  display: flex;
+}
+
+img {
+  width: 50%;
+}
+
+img:hover{
+  filter: grayscale(75%);
+  transition: all .5s ease-in;
+}
+
+.navbar {
+  background-image:url("https://i.pinimg.com/originals/ef/da/87/efda8774a022ea6e6c324ff2141398df.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 20%;
+}
+
+.navbar p{
+  color:white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.display {
+  width: 80%;
+  padding-top: 50px;
+}
+
+.cat-names {
+  list-style-type: none;
+}
+
+.cats {
+  display: flex;
+  justify-content: center;
+}
+
+button{
+  width: 50%;
+  margin-bottom: 5px;
+  height: 30px;
+  background-color: rgb(255, 193, 112);
+  color:rgb(87, 24, 24);
+  border-radius: 12px;
+  border:none;
+}
+
+button:hover{
+  background-color:rgb(103, 142, 165);
+  color:white;
+  transition: all .5s ease-in;
+  cursor: pointer;
+}
+
+.form-unit {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.form-btn {
+  width: 40%;
+  margin: 10px;
+  background-color: royalblue!important;
+  color:white;
+}
+
+.form-label {
+  margin: 0px 10px;
+}
+
+#admin-save{
+  background-color:greenyellow!important;
+}
+#admin-cancel{
+  background-color:red!important;
+}
+
+@media only screen and (max-width: 850px) {
+  button {
+      width: 80%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  img {
+      width: 80%;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .main {
+      flex-direction: column;
+  }
+
+  .display, .navbar {
+      width: 100%;
+  }
+}
+
+.admin-btn{
+  background-color: royalblue!important;
+  color:white;
+}
+
+#spani{
+  background-color:rgb(199, 193, 193);
+  border-radius:12px;
+  margin-left:50%;
+}
+
+#cat-clicks-span,#cat-age-span{
+  background-color: indigo;
+  color:white;
+  width:10%;
+  float:center;
+  border-radius:12px;
+  width:500px;
+}
